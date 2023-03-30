@@ -50,4 +50,124 @@ class Livre
      */
     private $dateparution;
 
+
+    /**
+     * Get the value of id
+     *
+     * @return  int
+     */ 
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set the value of id
+     *
+     * @param  int  $id
+     *
+     * @return  self
+     */ 
+    public function setId(int $id)
+    {
+        $this->id = $id;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of titrelivre
+     *
+     * @return  string|null
+     */ 
+    public function getTitrelivre()
+    {
+        return $this->titrelivre;
+    }
+
+    /**
+     * Set the value of titrelivre
+     *
+     * @param  string|null  $titrelivre
+     *
+     * @return  self
+     */ 
+    public function setTitrelivre($titrelivre)
+    {
+        $this->titrelivre = $titrelivre;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of auteurlivre
+     *
+     * @return  string|null
+     */ 
+    public function getAuteurlivre()
+    {
+        return $this->auteurlivre;
+    }
+
+    /**
+     * Set the value of auteurlivre
+     *
+     * @param  string|null  $auteurlivre
+     *
+     * @return  self
+     */ 
+    public function setAuteurlivre($auteurlivre)
+    {
+        $this->auteurlivre = $auteurlivre;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of editeurlivre
+     *
+     * @return  string|null
+     */ 
+    public function getEditeurlivre()
+    {
+        return $this->editeurlivre;
+    }
+
+    /**
+     * Set the value of editeurlivre
+     *
+     * @param  string|null  $editeurlivre
+     *
+     * @return  self
+     */ 
+    public function setEditeurlivre($editeurlivre)
+    {
+        $this->editeurlivre = $editeurlivre;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of dateparution
+     *
+     * @return  \DateTime|null
+     */ 
+    public function getDateparution()
+    {
+        return $this->dateparution;
+    }
+
+    /**
+     * Set the value of dateparution
+     *
+     * @param  \DateTime|null  $dateparution
+     *
+     * @return  self
+     */ 
+    public function setDateparution($dateparution)
+    {
+        $this->dateparution = $dateparution;
+
+        return $this;
+    }
 }
